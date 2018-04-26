@@ -6,15 +6,15 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(qr=EseBbQUsWhUbx7V1CgDf.EeDOezAN4NIeHy50Mey9tW.q6DUEbnJ3nxO9DlLrDNRHVy4jl+wJgVfrJrtcmdQzxU=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(qr=True)
+ki.login(qr=EsyqFksdzPzzmsh3bQc1.eZhjy64lf3xI8tVLfFPFOq.Otdbi5SQgyPy8BmGgVqSs1Zy7xxzS7FevMlych05wZU=")
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(qr=True)
+ki2.login(qr=Esuw9TqCvWKT3CEey22e.3QJpIk5zvIHWXYfY5avO7G.8kLSi2GudywPfK73bcAO4478ETGnG23dqB1N8DLx/gs=)
 ki2.loginResult()
 
 print "login success plak"
@@ -74,8 +74,8 @@ mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
 Bots=[mid,kimid,ki2mid]
-owner =["ued156c86ffa56024c0acba16f7889e6d"]
-admin = ["ued156c86ffa56024c0acba16f7889e6d"]
+owner =["ophjlpahpchlmihnnnihgmmeilfjmjjc"]
+admin = ["ophjlpahpchlmihnnnihgmmeilfjmjjc"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -264,9 +264,9 @@ def bot(op):
             if op.param2 not in Bots:
               if op.param2 in Bots:
                 pass
-              elif op.param2 in admin:
+              elif op.param2 in admin:ued156c86ffa56024c0acba16f7889e6d
                 pass
-              elif op.param2 in owner:
+              elif op.param2 in owner:ued156c86ffa56024c0acba16f7889e6d
                 pass
               else:
                 random.choice(KAC).sendText(op.param1, "Jangan Sok Jadi Jagoan Deh Lu Njir.\nAdmin Bukan,Owner Juga Bukan\Kick Ah 😛")
@@ -936,7 +936,7 @@ def bot(op):
                     ki.updateProfile(profile)
                     ki.sendText(msg.to,"name " + string + " done")
             elif msg.text in ["Bot2 rename "]:
-              #if msg.from_ in admin:
+              #if msg.from_ in admin:ued156c86ffa56024c0acba16f7889e6d
                 string = msg.text.replace("Bot2 rename ","")
                 if len(string.decode('utf-8')) <= 20:
                     profile_B = ki2.getProfile()
